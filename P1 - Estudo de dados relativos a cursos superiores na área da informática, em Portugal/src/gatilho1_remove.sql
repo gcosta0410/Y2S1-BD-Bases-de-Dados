@@ -1,0 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+PRAGMA foreign_keys = ON;
+
+DROP TRIGGER IF EXISTS TRG_INCR_NUMCURSOS;
+DROP TRIGGER IF EXISTS TRG_DECR_NUMCURSOS;
